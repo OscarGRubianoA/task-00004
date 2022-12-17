@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+</head>
+<body>
+   
+        <header>
+            <nav>
+                <a href="./home.html">Home</a>
+                <a href="./about.html">About us</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./services.html">Services</a>
+                <a href="./detail.html">Detail</a>
+                <a class="active" href="#">Register</a>
+                
+            </nav>
+            <img src="./assets/logo.png" alt="logo">
+        </header>
+        <main class="main__register">
+            <h1>World Cup Qatar 2022</h1>
+            <h3>The best world cup in the history.</h3>
+            <form action="./show_data.html">
+                <fieldset>
+                <h4 class="form__title">Get the chance to win a football shirt this form</h4>
+                <div>
+                <label for="name">First Name</label>
+                <input type="text" name="register" id="name">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="register" id="lastname">
+            </div>
+            <div>
+                <label for="addrees">Address</label>
+                <input type="text" name="register" id="addrees">
+                <label for="zip">Zip code</label>
+                <input type="number" name="register" id="zip">
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="register" id="age">
+                <label for="mail">E-mail</label>
+                <input type="email" name="register" id="mail">
+            </div>
+            <div>
+                <label for="P">Phone</label>
+                <input type="number" name="register" id="P">
+                <input type="radio" name="register" id="phone">
+                <label for="phone">Phone</label>
+                <input type="radio" name="phone" id="mobile">
+                <label for="mobile">Mobile</label>
+            </div>
+            <div>
+                <label >Gender</label>
+                <input type="radio" name="gender" id="fem">
+                <label for="fem">Fem</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <label for="Cont">Continent</label>
+                
+                <select name="select" id="Cont">
+                    <option value="America">America</option>
+                    <option value="Europa" selected>Europa</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Oceania">Oceania</option>
+                    <option value="Asia">Asia</option>
+                  </select>
+                <label for="country">Country</label>
+                <input type="text" name="register" id="country">
+            </div>
+            <div class="form__column">
+                <div>
+                <label >Payment options:</label>
+                <label for="cash">Cash</label>
+                <input type="checkbox" name="pay" id="cash">
+                <label for="credit">Credit cards</label>
+                <input type="checkbox" name="pay" id="credit">
+                <label for="debit">Debit cards</label>
+                <input type="checkbox" name="pay" id="debit">
+            </div>
+            <div>
+                <label for="services">Services:</label>
+                <input class="label__services" type="text" name="register" id="services">
+            </div>
+            </div>
+            <div class="form__terms">
+                <input type="checkbox" name="register" id="terms">
+                <label for="terms">I accept terms and conditions</label>
+            </div>
+                <input class="submit" type="submit" value="Send">
+            </fieldset>
+            </form>
+            </main>
+            <footer>
+                <a href="mailto:LatamTravel@gmail.com">Email: LatamTravel@gmail.com</a>
+                <address>Address: Av. Juan Ramón Vidal, Corrientes</address>
+                <a href="tel:+0357-67231320">Phone: 0357-67231320</a>
+            </footer>
+</body>
+</html>
